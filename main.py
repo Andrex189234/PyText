@@ -400,7 +400,7 @@ class Editor:
 
     def about(self):
         print("about")
-        messagebox.showinfo("About", "PyText: created by Andrex and IlGrandeAnonimo")
+        messagebox.showinfo("About", "PyText: created by Andrex")
 
     def exit(self):
         if(messagebox.askyesno('Quit', 'Are you sure you want to quit')):
